@@ -1,0 +1,39 @@
+{
+  "name": "leadbox-webchat",
+  "version": "1.0.0",
+  "description": "LeadBox Web Chat Widget",
+  "main": "index.js",
+  "scripts": {
+    "demo": "webpack-dev-server  --mode=development --open --config webpack.conf.js ",
+    "dist": "webpack  --mode=development --config webpack.conf.js --output-path 'dist/'"
+  },
+  "author": "Zia <ziaurrehman1991@live.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "react-chat-widget": "^3.1.4",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-react-constant-elements": "^7.17.6",
+    "@babel/plugin-transform-react-inline-elements": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/runtime": "^7.17.9",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "css-loader": "^6.7.1",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
